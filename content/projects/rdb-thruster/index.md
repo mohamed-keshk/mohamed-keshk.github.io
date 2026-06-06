@@ -21,4 +21,4 @@ Developed at the Nile University Innovation Hub, this project aimed to create a 
 ## System Architecture & Components
 Below is the exploded design view of the custom brushless motor assembly, detailing the internal electromagnetic arrangement and the hubless mechanical integration.
 
-![RDB V5 Exploded View Render](RDB V5 render.png "RDB V5 Exploded View Render")
+![RDB V5 Exploded View Render](RDB_V5_render.png "RDB V5 Exploded View Render")
