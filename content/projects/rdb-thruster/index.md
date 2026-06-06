@@ -4,8 +4,9 @@ summary: "A custom-designed, high-power brushless thruster engineered for corros
 date: 2022-09-01
 tags:
   - Electromechanics
-  - PCB Design
-  - AUV
+  - Brushless Motor
+  - Stator winding
+  - 3D Modelling
 ---
 
 Developed at the Nile University Innovation Hub, this project aimed to create a compact, high-efficiency propulsion system for Autonomous Underwater Vehicles (AUVs).
