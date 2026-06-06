@@ -4,8 +4,8 @@ summary: "A lightweight, compact autonomous mission drone designed for smart mon
 date: 2025-02-01
 tags:
   - UAV
-  - Autonomous Systems
-  - Series Production
+  - Avionics
+  - Design for manufacturing
 ---
 
 As the Mechatronics Team Lead at avemoy FlexCo, I led the full product lifecycle for The Firefly, taking it from a meeting concept to a series-production-ready product in just five months.
