@@ -52,7 +52,7 @@ sections:
       count: 0
       filters:
         folders:
-          - projects
+          - projects # Make sure your folder is actually named 'project' and not 'projects' if they aren't showing up!
       buttons:
         - name: All
           tag: '*'
@@ -63,12 +63,8 @@ sections:
         - name: Series Production
           tag: Series Production
       default_button_index: 0
-      # Archive link auto-shown if more projects exist than 'count' above
-      # archive:
-      #   enable: false  # Set to false to explicitly hide
-      #   text: "Browse All"  # Customize text
-      #   link: "/work/"  # Custom URL
     design:
+      view: card    # <--- This is the line that makes the images clickable!
       columns: 3
       background:
         color:
