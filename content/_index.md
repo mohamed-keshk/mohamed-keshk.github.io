@@ -52,7 +52,7 @@ sections:
       count: 0
       filters:
         folders:
-          - projects # Make sure your folder is actually named 'project' and not 'projects' if they aren't showing up!
+          - project
       buttons:
         - name: All
           tag: '*'
@@ -64,7 +64,7 @@ sections:
           tag: Series Production
       default_button_index: 0
     design:
-      view: card    # <--- This is the line that makes the images clickable!
+      view: card
       columns: 3
       background:
         color:
@@ -73,7 +73,7 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
-# Visual Tech Stack - Icons organized by category
+  # Visual Tech Stack - Icons organized by category
   - block: tech-stack
     id: skills
     content:
@@ -123,42 +123,40 @@ sections:
       title: Experience
       date_format: Jan 2006
       items:
-        - title: Senior Software Engineer
-          company: Tech Corp
+        - title: Mechatronics Team Lead
+          company: avemoy FlexCo
           company_url: ''
           company_logo: ''
-          location: San Francisco, CA
+          location: ''
           date_start: '2023-01-01'
           date_end: ''
           description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
+            * Lead the full product lifecycle for autonomous systems, successfully taking concepts to series production.
+            * Managed the development of 'The Firefly' UAV, optimizing mechanical structures and avionics for tight greenhouse environments.
+            * Designed fully autonomous ground support docking stations for precision landing, automated charging, and data offload.
+            * Oversaw procurement, assembly standards, and manufacturing documentation for series deployment.
+        - title: R&D Mechatronics Engineer
+          company: Nile University Innovation Hub
           company_url: ''
           company_logo: ''
-          location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
+          location: ''
+          date_start: '2022-01-01'
+          date_end: '2023-01-01'
           description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
+            * Developed custom, high-efficiency propulsion systems for Autonomous Underwater Vehicles (AUVs).
+            * Engineered hub-less, rim-driven brushless thrusters specifically built to withstand corrosive underwater environments.
+            * Designed and manufactured custom brushless motor winding machines to accelerate the rapid prototyping phase.
+        - title: Robotics Engineer
+          company: Valeo (Mentorship Project)
           company_url: ''
           company_logo: ''
-          location: New York, NY
+          location: ''
           date_start: '2020-01-01'
-          date_end: '2021-05-31'
+          date_end: '2021-12-31'
           description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
+            * Developed an Autonomous Mobile Robot (AMR) capable of swarm collaboration for complex industrial tasks.
+            * Engineered a heavy-duty mechanical structure and lifting mechanism with a 200kg payload capacity running on mecanum wheels.
+            * Integrated LIDAR SLAM and multiple sensors using ROS for advanced autonomous navigation in tight warehouse spaces.
     design:
       columns: '1'
       background:
@@ -167,7 +165,7 @@ sections:
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-    
+  
   # Contact Section
   - block: contact-info
     id: contact
