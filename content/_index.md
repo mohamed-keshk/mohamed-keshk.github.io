@@ -60,8 +60,14 @@ sections:
           tag: UAV
         - name: Autonomous Systems
           tag: Autonomous Systems
-        - name: Series Production
-          tag: Series Production
+        - name: Electromechanics
+          tag: Electromechanics
+        - name: Brushless Motor
+          tag: Brushless Motor
+        - name: Stator winding
+          tag: Stator winding
+        - name: 3D Modelling
+          tag: 3D Modelling    
       default_button_index: 0
       # Archive link auto-shown if more projects exist than 'count' above
       # archive:
