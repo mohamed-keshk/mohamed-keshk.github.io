@@ -18,5 +18,3 @@ The CAD image shows a compact frame with a vertical guide, a working head, and a
 ## Deliverable
 
 The work covered custom machine development for stator prototyping. The image documents the mechanical design; cycle time, winding accuracy, and production throughput are not quantified in the available material.
-
-{{< project-figure src="featured.jpg" caption="CAD view of the custom stator winding machine and its supporting frame." >}}

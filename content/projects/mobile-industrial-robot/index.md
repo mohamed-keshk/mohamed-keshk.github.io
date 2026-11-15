@@ -22,8 +22,6 @@ The renders expose the chassis and wheel arrangement, while the photographs show
 
 The Nile University graduation project was funded by ASRT, mentored by Valeo, and received an A+ grade.
 
-{{< project-figure src="featured.jpg" caption="Assembled robot with mecanum wheels, enclosed body, and top-mounted LiDAR." >}}
-
 {{< project-figure src="chassis.jpg" caption="CAD render exposing the chassis, drivetrain, and internal packaging." >}}
 
 {{< project-figure src="structure.jpg" caption="CAD view of the structural frame and wheel layout." >}}

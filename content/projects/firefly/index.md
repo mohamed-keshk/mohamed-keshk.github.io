@@ -28,8 +28,6 @@ The CAD views show the protected propellers and central enclosure. The photograp
 
 [Watch the Firefly mission video](https://drive.google.com/file/d/1qkE2q_EvT4gHFT7_FfV0tIFBCzkcFscR/view).
 
-{{< project-figure src="featured.jpg" caption="Built Firefly aircraft with its central enclosure and propeller guards." >}}
-
 {{< project-figure src="design.jpg" caption="CAD view showing the compact frame and enclosure arrangement." >}}
 
 {{< project-figure src="frame.jpg" caption="Frame view showing the structure around the four propellers." >}}

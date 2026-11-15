@@ -17,8 +17,6 @@ The top and underside views document component placement, mounting, and the conn
 
 **Project stage:** PCB development prototype. These are digital board views; they do not establish an assembled or electrically validated board. Manufacturing readiness and flight qualification require separate checks.
 
-{{< project-figure src="featured.jpg" caption="KiCad 3D view of the motherboard component side." >}}
-
 {{< project-figure src="top.jpg" caption="Top view showing component placement and peripheral connectors." >}}
 
 {{< project-figure src="underside.jpg" caption="Underside view of the motherboard." >}}

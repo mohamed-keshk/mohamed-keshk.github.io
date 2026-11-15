@@ -14,8 +14,6 @@ WhiteFly adds another example of compact UAV hardware to my portfolio. The suppl
 
 The images focus on the physical aircraft and how it is carried between work locations. This visual record complements the more detailed [Firefly case study](/projects/firefly/). Performance figures and a development timeline are not documented here.
 
-{{< project-figure src="featured.jpg" caption="WhiteFly aircraft outdoors, showing its enclosure and propeller guards." >}}
-
 {{< project-figure src="packaging.jpg" caption="WhiteFly aircraft and associated equipment arranged with a transport case." >}}
 
 {{< project-figure src="outdoors.jpg" caption="WhiteFly on the ground, showing its camera opening, enclosure vents, and propeller guards." >}}

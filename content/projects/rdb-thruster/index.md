@@ -26,8 +26,6 @@ Compact packaging, operation in a corrosive environment, and similar forward and
 
 ## Design gallery
 
-{{< project-figure src="featured.jpg" caption="CAD render of the hubless thruster housing and integrated propeller." >}}
-
 {{< project-figure src="exploded.jpg" caption="Exploded CAD view showing the lid, bearings, stator, rotor, and housing." >}}
 
 {{< project-figure src="top.jpg" caption="Axial CAD view showing the open centre and blade arrangement." >}}

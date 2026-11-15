@@ -18,16 +18,12 @@ I integrated the UAV's landing, power, and data-transfer requirements into the g
 
 ## Docking surface and complete stations
 
-The V1 photograph shows the recessed docking interface, contact pins, and a visual landing marker above the enclosure. The V2 photograph shows two complete stations with aircraft in place, marker panels, and external power connections. Together, these views connect the internal electronics integration with the physical interface used by the aircraft.
+The V1 photograph below shows the recessed docking interface, contact pins, and a visual landing marker above the enclosure. The V2 cover photograph shows two complete stations with aircraft in place, marker panels, and external power connections. Together, these views connect the internal electronics integration with the physical interface used by the aircraft.
 
 {{< project-figure src="station-v1.jpg" caption="V1 ground support station: recessed docking interface with contact pins and a visual landing marker." >}}
-
-{{< project-figure src="featured.jpg" caption="V2 ground support stations with aircraft in place, landing markers, and external power connections." >}}
 
 ## Inside the station
 
 The interior photograph shows the power supplies, computing hardware, wiring, and service layout. Packaging these subsystems together makes cable routing, access, and maintenance part of the mechanical design. This page documents the integration work; it does not assign a docking success rate or charging-time specification.
-
-{{< project-figure src="electronics.jpg" caption="Interior of the ground support station, showing power, compute, and wiring integration." >}}
 
 {{< project-figure src="integration.jpg" caption="Station interior showing the computer, charger, power supplies, controller, and cable management." >}}
