@@ -1,0 +1,12 @@
+<div class="workshop-section">
+  <h2>{{ .wcBlock.content.title }}</h2>
+  <p class="workshop-intro">{{ .wcBlock.content.text }}</p>
+  <div class="workshop-grid">
+    {{ range .wcBlock.content.photos }}
+    <figure>
+      <img src="{{ .src | relURL }}" alt="{{ .caption }}" width="1200" height="800" loading="lazy" decoding="async">
+      <figcaption>{{ .caption }}</figcaption>
+    </figure>
+    {{ end }}
+  </div>
+</div>

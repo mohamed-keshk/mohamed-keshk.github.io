@@ -1,0 +1,10 @@
+{{ $image := .Page.Resources.GetMatch (.Get "src") }}
+{{ with $image }}
+{{ $display := .Resize "1400x webp q85" }}
+<figure class="project-figure">
+  <a href="{{ .RelPermalink }}" aria-label="View full image: {{ $.Get "caption" }}">
+    <img src="{{ $display.RelPermalink }}" width="{{ $display.Width }}" height="{{ $display.Height }}" loading="lazy" decoding="async" alt="{{ $.Get "caption" }}" style="width:100%;height:auto;border-radius:12px;">
+  </a>
+  <figcaption>{{ $.Get "caption" }}</figcaption>
+</figure>
+{{ else }}{{ errorf "Missing project image %s on %s" (.Get "src") .Page.File.Path }}{{ end }}

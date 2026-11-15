@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "Senior Mechatronics Engineer"
     # Site meta description for search engines and social sharing
-    description: "Senior Mechatronics Engineer portfolio showcasing 9 years of experience delivering autonomous drones, ground support equipment, and embedded systems from concept to production."
+    description: "Mechatronics engineering portfolio: autonomous drones, mobile robots, PCB design, underwater propulsion, and custom manufacturing tools."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       github: "mohamed-keshk"              # Github user name
@@ -90,7 +90,7 @@ hugoblox:
     # Feature toggles
     search: true
     theme_toggle: true
-    theme_picker: true
+    theme_picker: false
     language_switcher: true
     # Call-to-action button
     cta:

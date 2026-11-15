@@ -1,31 +1,37 @@
 ---
-title: "Rim-Driven Hubless BLDC Thruster"
-summary: "A custom-designed, high-power brushless thruster engineered for corrosive underwater environments."
-date: 2022-09-01
+title: Rim-Driven Hubless BLDC Thruster
+summary: A custom underwater propulsion prototype, from hubless motor architecture
+  and stator winding to assembled hardware.
 tags:
-  - Electromechanics
-  - Brushless Motor
-  - Stator winding
-  - 3D Modelling
+- Electromechanics
+- Manufacturing
+date: '2022-09-01'
 ---
 
-Developed in the "Nile University Innovation Hub", in this project I aimed to build a compact and integrated high-efficiency brushless Thruster from scratch for Autonomous Underwater Vehicles (AUVs).
+## A motor built around the propeller
 
-**Design Features:**
-* **Innovative Architecture**: Designed a hub-less, rim-driven configuration to maximize efficiency and minimize size.
-* **Harsh Environment Engineering**: Specifically built to withstand corrosive underwater conditions while maintaining symmetrical thrust performance.
-* **Custom Manufacturing**: Built a mini custom brushless motor winding machines to accelerate the rapid prototyping phase of the stator.
+At Nile University's Innovation Hub, I designed and built a rim-driven brushless DC thruster for underwater vehicles. The propeller is integrated into the rotor, leaving the centre open rather than using a conventional central motor and shaft.
 
-## Video Demonstration
+## My contribution
+
+I developed the mechanical assembly, custom stator winding, and prototype manufacturing approach. The housing and lid locate the stator and rotor assembly, with two custom stainless steel roller bearings supporting the rotating structure. I also built a [stator winding machine](/projects/stator-winding-machine/) to support motor prototyping.
+
+## Iteration and assembly
+
+Compact packaging, operation in a corrosive environment, and similar forward and reverse thrust were design goals. The images below document an earlier build, the later assembly design, and a built prototype. Thrust, efficiency, corrosion resistance, and continuous-duty performance require dedicated measurements; the photographs and demonstration do not establish those ratings.
+
+## Operation demonstration
+
 {{< youtube P9is_foN304 >}}
 
-## System Architecture & Components
-Below is the exploded design view of the custom brushless motor assembly, detailing the hubless mechanical structure.
-The motor consists of the external body and lid, housing two custome stainless steel roller bearings, and the custome wound stator. Inside the stator, the rotor which integrates the propellers is centered between both bearings.
+## Design gallery
 
-![RDB V5 Exploded View Render](RDB_V5_render.png "RDB V5 Exploded View Render")
+{{< project-figure src="featured.jpg" caption="CAD render of the hubless thruster housing and integrated propeller." >}}
 
-## Final Prototype
-Here is the final, fully assembled Rim-Driven Hubless BLDC Thruster prototype.
+{{< project-figure src="exploded.jpg" caption="Exploded CAD view showing the lid, bearings, stator, rotor, and housing." >}}
 
-![Rim-Driven Hubless BLDC Thruster Assembly](Motor_assembled.png "Final Assembly Prototype")
+{{< project-figure src="top.jpg" caption="Axial CAD view showing the open centre and blade arrangement." >}}
+
+{{< project-figure src="early-prototype.jpg" caption="Earlier physical prototype of the rim-driven thruster." >}}
+
+{{< project-figure src="prototype.jpg" caption="Later assembled prototype; photograph of the built hardware." >}}

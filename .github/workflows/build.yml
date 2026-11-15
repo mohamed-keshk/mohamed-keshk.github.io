@@ -38,13 +38,13 @@ jobs:
         version: 10.14.0
 
     - name: Install dependencies
-      run: pnpm install --no-frozen-lockfile
+      run: pnpm install --frozen-lockfile
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
-        # Pinned to 0.160.0 to avoid the 0.161.1 binary-check bug
-        hugo-version: '0.160.0'
+        # Match the Hugo version declared in hugoblox.yaml
+        hugo-version: '0.161.1'
         extended: true
 
     - name: Setup Pages
@@ -56,6 +56,7 @@ jobs:
         HUGO_ENVIRONMENT: production
         HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
       run: |
+        node scripts/prepare-hugo.mjs
         # Clear resources cache to ensure a fresh Tailwind run
         rm -rf resources/_gen
         
@@ -63,6 +64,9 @@ jobs:
         export PATH=$PATH:$(pwd)/node_modules/.bin
         
         hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+    - name: Build search index
+      run: pnpm run pagefind
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3

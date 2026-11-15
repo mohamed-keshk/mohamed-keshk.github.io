@@ -7,102 +7,118 @@ name:
   family: Keshk
 postnominals: []
 status:
-  icon: "🤖"  # I changed this to a robot to fit mechatronics!
+  icon: 🤖
 role: Senior Mechatronics Engineer - Autonomous Systems
 email: Mohamed.t.keshk@gmail.com
-bio: |
-  Senior Mechatronics / Hardware Engineer with 9 years of experience delivering autonomous UAV and robotic systems from concept to series production.
-  Proven ownership of PCB Design, Mechanical Integration, Embedded Software, and Validation Testing.
+bio: 'I design and build autonomous drones, robotic platforms, and the electronics
+  that connect them. My work spans PCB design, mechanical integration, embedded systems,
+  and validation, with hands-on ownership from early prototypes through manufacturing.
+  I also develop the tooling and ground infrastructure that help these systems operate
+  in practice.
 
+  '
 affiliations:
-  - name: avemoy FlexCo
-
+- name: avemoy FlexCo
 links:
-  - icon: at-symbol
-    url: mailto:Mohamed.t.keshk@gmail.com
-    label: E-mail Me
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/mohamed-t-keshk/
-  - icon: brands/github
-    url: https://github.com/mohamed-keshk
-
+- icon: at-symbol
+  url: mailto:Mohamed.t.keshk@gmail.com
+  label: E-mail Me
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/mohamed-t-keshk/
+- icon: brands/github
+  url: https://github.com/mohamed-keshk
 interests:
-  - Autonomous Systems & UAVs
-  - PCB Design & Electronics
-  - Robotics (ROS)
-  - Rapid Prototyping & Manufacturing
-
+- Autonomous Systems & UAVs
+- PCB Design & Electronics
+- Robotics (ROS)
+- Rapid Prototyping & Manufacturing
 education:
-  - degree: Bachelor of Engineering and Applied Sciences in Mechatronics Engineering
-    institution: Nile University
-    start: 2016-09-01
-    end: 2021-07-31
-    summary: |
-      Graduation Project (Funded by ASRT, Mentored by Valeo): Designed an Autonomous Mobile Robot (AMR) with 200kg payload capacity using ROS and LIDAR SLAM navigation. Grade: A+.
-      Research: Designed a Neural Network-controlled Stewart Platform (6-DOF) using MATLAB and MSC Adams co-simulation.
+- degree: Bachelor of Engineering and Applied Sciences in Mechatronics Engineering
+  institution: Nile University
+  start: 2016-09-01
+  end: 2021-07-31
+  summary: 'Graduation Project (Funded by ASRT, Mentored by Valeo): Designed an Autonomous
+    Mobile Robot (AMR) with 200kg payload capacity using ROS and LIDAR SLAM navigation.
+    Grade: A+.
 
+    Research: Designed a Neural Network-controlled Stewart Platform (6-DOF) using
+    MATLAB and MSC Adams co-simulation.
+
+    '
 experience:
-  - role: Mechatronics Team Lead
-    org: avemoy FlexCo
-    start: 2025-02-01
-    summary: |
-      Leading the Mechatronics development of multiple autonomous UAV fleets and ground assisting infrastructure.
-      Designed and manufactured custom UAV prototyping and testing platform (The Dragonfly) and Series Production Drone (The Firefly).
-      Designed a fully autonomous docking station handling precision landing, battery charging, and data offload.
-  - role: Innovation Hub Executive
-    org: Nile University
-    start: 2022-09-01
-    end: 2025-02-01
-    summary: |
-      Acted as technical lead for researchers and startups, providing design-for-manufacturing (DFM) reviews and electronic subsystem prototyping.
-      Helped more than 500 individual engineering students and researchers, 25 graduation projects and 3 Startups.
-      Designed and manufactured a Hubless Rim-driven Brushless DC Thruster for Autonomous Underwater Vehicles (AUVs).
-  - role: Innovation Hub Engineer
-    org: Nile University
-    start: 2021-09-01
-    end: 2022-09-01
-    summary: |
-      Lab Operations: Provided technical support to all lab visitors and ensured all machines and equipment are maintained and in proper working conditions to ensure highest uptime.
-      Technical Instruction: Assisted in creating and teaching three courses in ECEN major: Physical Sensors, Transducers, and Instruments lab, Analog and Digital Electronics lab and Communications Design Lab course.
-  - role: Electronic Design Engineer
-    org: Tensor Electronics
-    start: 2015-07-01
-    end: 2021-09-01
-    summary: |
-      PCB Design & Layout: Led the design of multiple Smart Home system modules from schematic capture to mass production.
-      Embedded Systems: Developed hardware and firmware for RF communication modules.
-      Power Management: Designed power switching circuits using TRIACs, Relays, and Opto-isolators, adhering to safety standards for mains-voltage applications.
+- role: Mechatronics Team Lead
+  org: avemoy FlexCo
+  start: 2025-02-01
+  summary: 'Leading the Mechatronics development of multiple autonomous UAV fleets
+    and ground assisting infrastructure.
 
+    Designed and manufactured custom UAV prototyping and testing platform (The Dragonfly)
+    and Series Production Drone (The Firefly).
+
+    Designed a fully autonomous docking station handling precision landing, battery
+    charging, and data offload.
+
+    '
+- role: Innovation Hub Executive
+  org: Nile University
+  start: 2022-09-01
+  end: 2025-02-01
+  summary: 'Acted as technical lead for researchers and startups, providing design-for-manufacturing
+    (DFM) reviews and electronic subsystem prototyping.
+
+    Helped more than 500 individual engineering students and researchers, 25 graduation
+    projects and 3 Startups.
+
+    Designed and manufactured a Hubless Rim-driven Brushless DC Thruster for Autonomous
+    Underwater Vehicles (AUVs).
+
+    '
+- role: Innovation Hub Engineer
+  org: Nile University
+  start: 2021-09-01
+  end: 2022-09-01
+  summary: 'Lab Operations: Provided technical support to all lab visitors and ensured
+    all machines and equipment are maintained and in proper working conditions to
+    ensure highest uptime.
+
+    Technical Instruction: Assisted in creating and teaching three courses in ECEN
+    major: Physical Sensors, Transducers, and Instruments lab, Analog and Digital
+    Electronics lab and Communications Design Lab course.
+
+    '
+- role: Electronic Design Engineer
+  org: Tensor Electronics
+  start: 2015-07-01
+  end: 2021-09-01
+  summary: 'PCB Design & Layout: Led the design of multiple Smart Home system modules
+    from schematic capture to mass production.
+
+    Embedded Systems: Developed hardware and firmware for RF communication modules.
+
+    Power Management: Designed power switching circuits using TRIACs, Relays, and
+    Opto-isolators, adhering to safety standards for mains-voltage applications.
+
+    '
 skills:
-  - name: Electronics & Hardware
-    items:
-      - label: PCB Design (KiCad/Proteus)
-        level: 5
-      - label: Microcontrollers (ESP32/STM32)
-        level: 5
-      - label: Power Electronics
-        level: 4
-  - name: Mechanical & Manufacturing
-    items:
-      - label: SolidWorks
-        level: 5
-      - label: 3D Printing (SLA/SLS/FDM)
-        level: 5
-      - label: CNC Machining
-        level: 4
-  - name: Software & Scripting
-    items:
-      - label: C/C++
-        level: 5
-      - label: Python
-        level: 4
-      - label: ROS
-        level: 4
-
+- name: Electronics & Hardware
+  items:
+  - label: PCB Design (KiCad/Proteus)
+  - label: Microcontrollers (ESP32/STM32)
+  - label: Power Electronics
+- name: Mechanical & Manufacturing
+  items:
+  - label: SolidWorks
+  - label: 3D Printing (SLA/SLS/FDM)
+  - label: CNC Machining
+- name: Software & Scripting
+  items:
+  - label: C/C++
+  - label: Python
+  - label: ROS
 awards:
-  - title: Certified SolidWorks Associate (CSWA) - Mechanical Design & Additive Manufacturing
-    date: 2023-01-01
-  - title: Data Analysis Professional Track - Udacity
-    date: 2023-01-01
-  - title: Festo Professional Diploma - PLC Programming & Electro-Pneumatics
-    date: 2020-01-01
+- title: Certified SolidWorks Associate (CSWA) - Mechanical Design & Additive Manufacturing
+  date: 2023-01-01
+- title: Data Analysis Professional Track - Udacity
+  date: 2023-01-01
+- title: Festo Professional Diploma - PLC Programming & Electro-Pneumatics
+  date: 2020-01-01

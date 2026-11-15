@@ -1,21 +1,39 @@
 ---
-title: "The Firefly: Autonomous Greenhouse Drone"
-summary: "A lightweight, compact autonomous mission drone designed for smart monitoring in high-density greenhouse environments."
-date: 2025-02-01
+title: 'The Firefly: Autonomous Greenhouse Drone'
+summary: 'A compact 4-inch mission drone: mechanical design, avionics integration,
+  and the transition to series production.'
 tags:
-  - UAV
-  - Avionics
-  - Design for manufacturing
+- UAV
+- Autonomous Systems
+- Manufacturing
+date: '2025-02-01'
 ---
 
-As the Mechatronics Team Lead at avemoy FlexCo, I led the full product lifecycle for The Firefly, taking it from a meeting concept to a series-production-ready product in just five months.
+## From greenhouse constraints to a production drone
 
-**Key Contributions:**
-* **Mechanical Optimization**: Designed a lightweight structure to meet strict dimension targets for navigating tight tomato greenhouse rows.
-* **Avionics & Integration**: Optimized sensor placement to ensure specific flight times and maximum flexibility for data capture.
-* **Ground Support**: Designed a fully autonomous docking station for precision landing, automated charging, and data offload.
-* **Production Management**: Oversaw procurement, assembly standards, and manufacturing documentation for series deployment.
+The Firefly captures data for greenhouse monitoring, where narrow rows and dense plants place tight limits on the aircraft's size and layout. As Mechatronics Team Lead at avemoy FlexCo, I led the hardware development from concept through prototyping and the transition to series production within five months.
 
-<div style="display: flex; justify-content: flex-end; margin-top: 2rem;">
-  <iframe src="https://drive.google.com/file/d/1qkE2q_EvT4gHFT7_FfV0tIFBCzkcFscR/preview" width="640" height="480" style="max-width: 100%; border: none; border-radius: 8px;"></iframe>
-</div>
+## My contribution
+
+- Defined engineering requirements and selected components for a lightweight, compact 4-inch platform.
+- Designed the mechanical structure and integrated avionics and sensors around size, weight, flight-time, and data-capture requirements.
+- Managed procurement, manufacturing, assembly standards, and production documentation.
+- Supported software integration and flight testing, and developed the accompanying [ground support station](/projects/ground-support-station/).
+
+## Design and built hardware
+
+The CAD views show the protected propellers and central enclosure. The photographs document the built aircraft and its presentation. They show the progression from design to hardware; flight endurance and sensing accuracy are not quantified here.
+
+## Mission video
+
+[Watch the Firefly mission video](https://drive.google.com/file/d/1qkE2q_EvT4gHFT7_FfV0tIFBCzkcFscR/view).
+
+{{< project-figure src="featured.jpg" caption="Built Firefly aircraft with its central enclosure and propeller guards." >}}
+
+{{< project-figure src="design.jpg" caption="CAD view showing the compact frame and enclosure arrangement." >}}
+
+{{< project-figure src="frame.jpg" caption="Frame view showing the structure around the four propellers." >}}
+
+{{< project-figure src="front.jpg" caption="Front CAD view of the enclosure and sensor openings." >}}
+
+{{< project-figure src="presentation.jpg" caption="Firefly aircraft on display for greenhouse monitoring." >}}

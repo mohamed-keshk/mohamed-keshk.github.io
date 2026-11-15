@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.14.0",
-  "description": "Modern developer portfolio template for Hugo Blox with Tailwind CSS v4 - Free version",
+  "description": "Mohamed Keshk's mechatronics engineering portfolio",
   "scripts": {
-    "dev": "hugo server --disableFastRender",
-    "build": "hugo --minify && pnpm run pagefind",
+    "dev": "node scripts/prepare-hugo.mjs && hugo server --disableFastRender",
+    "build": "node scripts/prepare-hugo.mjs && hugo --minify --cleanDestinationDir && node node_modules/pagefind/lib/runner/bin.cjs --site public",
     "pagefind": "pagefind --site public"
   },
   "dependencies": {
